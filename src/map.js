@@ -1,4 +1,7 @@
-// import React, { useState } from 'react';
+ import React from 'react';
+ import '../styles/Home.css';
+ import Navbar from '../components/Navbar';
+ import '../styles/nav.css';
 
 function BeachMap(searchTerm) {
 
@@ -7,7 +10,7 @@ function BeachMap(searchTerm) {
 
   return (
     <div>
-      <iframe title="map" width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src={mapUrl}/>
+      <iframe class="screen" title="map" width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src={mapUrl}/>
     </div>
     
    
